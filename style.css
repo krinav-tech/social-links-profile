@@ -89,7 +89,7 @@ body{
     font-weight: var(--fw-400);
     text-align: center;
     text-decoration: none;
-    padding: .50rem 0.75rem;
+    padding: .75rem 0.75rem;
     background-color: var(--Grey-700);
     border-radius: 0.30rem;
     color:var(--white);
