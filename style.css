@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+:root {
+
+    /* color  */
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+
+    /* fonts  */
+    --ff-inter: "inter";
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-700: 700;
+
+    --heading:1.4rem;
+    --subhead:1rem;
+    --pera:0.9rem;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Grey-900);
+    font-family: var(--ff-inter);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--Grey-800);
+    border-radius: 1.2rem;
+    width: 24rem;
+    padding: 1.5rem;
+}
+
+.profile-picture{
+    border-radius: 10rem;
+    height: 15vh;
+    margin-bottom: 1rem;
+}
+.name{
+    font-size: var(--heading);
+    font-weight: var(--fw-700);
+    color: var(--white);
+}
+.adress{
+    font-size: var(--subhead);
+    font-weight: var(--fw-400);
+    color: var(--green);
+    margin-top: 0.2rem;
+
+}
+.about{
+    font-size: var(--pera);
+    font-weight: var(--fw-400);
+    color: var(--white);
+    margin: 1rem 0;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 20rem;
+    margin: 1rem 0;
+}
+.links a{
+    font-size: var(--subhead);
+    font-weight: var(--fw-600);
+    text-align: center;
+    text-decoration: none;
+    padding: .75rem 0.75rem;
+    background-color: var(--Grey-700);
+    border-radius: 0.30rem;
+    color:var(--white);
+}
+.links a:hover{
+    background-color: var(--green);
+    color: var(--Grey-900);
+    font-weight: var(--fw-600);
+}
