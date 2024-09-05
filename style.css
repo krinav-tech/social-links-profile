@@ -87,7 +87,7 @@ body{
 }
 .links a{
     font-size: var(--subhead);
-    font-weight: var(--fw-600);
+    font-weight: var(--fw-400);
     text-align: center;
     text-decoration: none;
     padding: .75rem 0.75rem;
@@ -98,5 +98,4 @@ body{
 .links a:hover{
     background-color: var(--green);
     color: var(--Grey-900);
-    font-weight: var(--fw-600);
 }
