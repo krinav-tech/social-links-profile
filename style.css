@@ -51,7 +51,7 @@ body{
     background-color: var(--Grey-800);
     border-radius: 1.2rem;
     width: 24rem;
-    padding: 1.5rem;
+    padding: 2rem 1.5rem;
 }
 
 .profile-picture{
@@ -83,14 +83,13 @@ body{
     justify-content: center;
     gap: 1rem;
     width: 20rem;
-    margin: 1rem 0;
 }
 .links a{
     font-size: var(--subhead);
     font-weight: var(--fw-400);
     text-align: center;
     text-decoration: none;
-    padding: .75rem 0.75rem;
+    padding: .50rem 0.75rem;
     background-color: var(--Grey-700);
     border-radius: 0.30rem;
     color:var(--white);
